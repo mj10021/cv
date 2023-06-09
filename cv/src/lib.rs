@@ -44,6 +44,9 @@ pub mod camera {
     /// The pinhole camera model
     #[cfg(feature = "cv-pinhole")]
     pub use cv_pinhole as pinhole;
+    /// the fisheye camera model
+    #[cfg(feature = "cv-fisheye")]
+    pub use cv_fisheye as fisheye;
 }
 
 /// Consensus algorithms (RANSAC)
